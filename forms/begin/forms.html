@@ -17,7 +17,7 @@
 			<label for="name">Your name</label>
 				<input type="text" id="name" name="name"> 
 			<label for="phone">Phone number</label>
-				<input type="phone" id="phone" name="phone">
+				<input type="phone" id="phone" name="phone" placeholder="Enter the number without blanks">
 			<label>Email</label>
 			<input type="email" id="email" name="email">
 				</fieldset>
@@ -50,9 +50,14 @@
 					<option value="dance">Alien dance lessons</option>
 					<option value="whale">Whale watching</option>
 				</select>
-			<p>Special requests:</p>
-			<p>Add me to your email list</p>	
+			<label for="comment">Special requests:</label>
+			<textarea name="comment" id="comment"> 
+			</textarea>
+			<label for="subscription">	
+			<input type="checkbox" checked id="subscription" name="subscription" value="subscription"> Add me to the newsletter
+			</label>>
 				</fieldset>
+				<button type="submit"> Sumbit form</button> 
 			</form>			
 		</section>
 		<aside>
