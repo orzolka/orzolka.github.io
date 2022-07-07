@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Coffee Grinding</title>
+<link href="style.css", rel="stylesheet", type="text/css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<header>
+<h2> All about coffee </h2>
+<nav>
+<ul>
+<li> <a href="Index.html"> Home </a></li>
+<li> <a href="Roasting.html"> Roasting </a></li>
+<li> <a href="Grinding.html"> Grinding </a></li>
+<li> <a href="Brewing.html"> Brewing </a></li>
+<li> <a href="Drinks.html"> Drinks </a></li>
+<li> <a href="Coffee-survey.html"> Coffee survey</a> </li>
+</ul>
+</nav>
+</header>
+
+<h2> Coffee Grinding</h2>
+<figure class="photo-right">
+<img src= "images/coffee-grinder.jpg" width = 350 />
+<figcaption> coffee-grinder </figcaption>
+</figure>
+<p>The whole coffee beans are ground, also known as milling, to facilitate the brewing process.
+
+<p>The fineness of the grind strongly affects brewing. Brewing methods that expose coffee grounds to heated water for longer require a coarser grind than faster brewing methods. Beans that are too finely ground for the brewing method in which they are used will expose too much surface area to the heated water and produce a bitter, harsh, "over-extracted" taste. At the other extreme, an overly coarse grind will produce weak coffee unless more is used. Due to the importance of a grind's fineness, a uniform grind is highly desirable.</p>
+
+<p>If a brewing method is used in which the time of exposure of the ground coffee to the heated water is adjustable, then a short brewing time can be used for finely ground coffee. This produces coffee of equal flavor yet uses less ground coffee. A blade grinder does not cause frictional heat buildup in the ground coffee unless used to grind very large amounts as in a commercial operation. A fine grind allows the most efficient extraction but coffee ground too finely will slow down filtration or screening.</p>
+
+<p>Ground coffee deteriorates faster than roasted beans because of the greater surface area exposed to oxygen. Many coffee drinkers grind the beans themselves immediately before brewing.</p>
+
+There are four methods of grinding coffee for brewing: 
+<ul>
+<li>Burr-grinding</li>
+<li>Chopping</li>
+<li>Pounding</li>
+<li>Roller grinding</li>
+</ul>
+<footer>
+<nav>
+<ul>
+<li> <a href="Index.html"> Home </a></li>
+<li> <a href="Roasting.html"> Roasting </a></li>
+<li> <a href="Grinding.html"> Grinding </a></li>
+<li> <a href="Brewing.html"> Brewing </a></li>
+<li> <a href="Drinks.html"> Drinks </a></li>
+<li> <a href="Survey.html"> Coffee survey</a> </li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>

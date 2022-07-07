@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="style.css", rel="stylesheet", type="text/css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<title>Coffee Roasting</title>
+</head><body>
+<header>
+<h2> All about coffee </h2>
+<nav>
+<ul>
+<li> <a href="Index.html"> Home </a></li>
+<li> <a href="Roasting.html"> Roasting </a></li>
+<li> <a href="Grinding.html"> Grinding </a></li>
+<li> <a href="Brewing.html"> Brewing </a></li>
+<li> <a href="Drinks.html"> Drinks </a></li>
+<li> <a href="Coffee-survey.html"> Coffee survey</a> </li>
+</ul>
+</nav>
+</header>
+<h2>Coffee Roasting</h2>
+<aside>
+<figure>
+<img src="images/coffee-berries.jpg" width=100>
+<figcaption> unpicked coffee berries </figcaption>
+</figure>
+<figure>
+<img src="images/fresh-beans.jpg" width=100>
+<figcaption> fresh coffee beans </figcaption>
+</figure>
+<figure>
+<img src="images/roasted-beans.jpg" width=100>
+<figcaption> roasted coffee beans </figcaption>
+</figure>
+</aside>
+
+<figure class="photo-right">
+<img src="images/commercial-roaster.jpg" width=300>
+<figcaption> commercial coffee roaster </figcaption>
+</figure>
+<p>Roasting coffee transforms the chemical and physical properties of green coffee beans. When roasted, the green coffee bean expands to nearly double its original size, changing in color and density. As the bean absorbs heat, its color shifts to yellow, then to a light "cinnamon" brown, and then to a rich dark brown color. During roasting, oils appear on the surface of the bean. The roast will continue to darken until it is removed from the heat source.</p>
+
+<p>Coffee can be roasted with ordinary kitchen equipment (frying pan, grill, oven, popcorn popper) or by specialised appliances. A coffee roaster is a special pan or apparatus suitable to heat up and roast green coffee beans.</p>
+
+<p>The vast majority of coffee is roasted commercially on a large scale, but small-scale commercial roasting has grown significantly with the trend toward "single-origin" coffees served at specialty shops. Some coffee drinkers even roast coffee at home as a hobby in order to both experiment with the flavor profile of the beans and ensure themselves of the freshest possible roast.</p>
+<footer>
+<nav>
+<ul>
+<li> <a href="Index.html"> Home </a></li>
+<li> <a href="Roasting.html"> Roasting </a></li>
+<li> <a href="Grinding.html"> Grinding </a></li>
+<li> <a href="Brewing.html"> Brewing </a></li>
+<li> <a href="Drinks.html"> Drinks </a></li>
+<li> <a href="Survey.html"> Coffee survey</a> </li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>

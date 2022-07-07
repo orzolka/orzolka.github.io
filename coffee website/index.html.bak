@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="style.css", rel="stylesheet", type="text/css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<title> About coffee </title>
+</head>
+<body>
+
+<header>
+<h2> All about coffee </h2>
+<nav>
+<ul>
+<li> <a href="Index.html"> Home </a></li>
+<li> <a href="Roasting.html"> Roasting </a></li>
+<li> <a href="Grinding.html"> Grinding </a></li>
+<li> <a href="Brewing.html"> Brewing </a></li>
+<li> <a href="Drinks.html"> Drinks </a></li>
+<li> <a href="Coffee-survey.html"> Coffee survey</a> </li>
+</ul>
+</nav>
+</header>
+
+<div>
+<h2>All About Coffee</h2>
+</div>
+<aside>
+<blockquote>
+We want to do a lot of stuff; we're not in great shape. We didn't get a good night's sleep. We're a little depressed. Coffee solves all these problems in one delightful little cup.  </blockquote>
+- Jerry Seinfeld </aside>
+<section>
+<img class="photo-left" src="images/coffee-cup.png" width=90/>
+
+<p>Coffee preparation is the process of turning coffee beans into a beverage. While the particular steps vary with the type of coffee and with the raw materials, the process includes four basic steps;
+ raw coffee beans must be <a href="Roasting.html">roasted </a>, the roasted coffee beans must then be  <a href="Grinding.html"> ground </a>, 
+ the ground coffee must then be mixed with hot water for a certain time <a href="Brewing.html">(brewed)</a>, and finally the liquid coffee must be separated from the used grounds. </p>
+
+<p>Coffee is usually brewed immediately before drinking. In most areas, coffee may be purchased unprocessed, or already roasted, or already roasted and ground. Coffee is often vacuum packed to prevent oxidation and lengthen its shelf life. </p>
+
+<p>To learn more about coffee, just browse our informative site, or you can visit 
+<a href=" http://en.wikipedia.org/wiki/Coffee_preparation"> http://en.wikipedia.org/wiki/Coffee_preparation </a> wikipedia for even more. </p>
+
+
+<footer>
+<nav>
+<ul>
+<li> <a href="Index.html"> Home </a></li>
+<li> <a href="Roasting.html"> Roasting </a></li>
+<li> <a href="Grinding.html"> Grinding </a></li>
+<li> <a href="Brewing.html"> Brewing </a></li>
+<li> <a href="Drinks.html"> Drinks </a></li>
+<li> <a href="Survey.html"> Coffee survey</a> </li>
+</ul>
+</nav>
+</footer>
+
+
+
+
+</body>
+</html>

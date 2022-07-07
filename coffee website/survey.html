@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="style.css", rel="stylesheet", type="text/css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<title>Coffee Survey</title>
+
+</head>
+<body>
+<header>
+<h2> All about coffee </h2>
+<nav>
+<ul>
+<li> <a href="Index.html"> Home </a></li>
+<li> <a href="Roasting.html"> Roasting </a></li>
+<li> <a href="Grinding.html"> Grinding </a></li>
+<li> <a href="Brewing.html"> Brewing </a></li>
+<li> <a href="Drinks.html"> Drinks </a></li>
+<li> <a href="Survey.html"> Coffee survey</a> </li>
+</ul>
+</nav>
+</header>
+
+
+<h2> Coffee Survey</h2>
+<aside>
+<figure>
+<img src="images/espresso.jpg" alt="espresso cup">
+</figure>
+</aside>
+<form action="script.php" method="get">
+<fieldset>
+<legend>  Personal info </legend>
+Your Name<br/> 
+<input type="text" name="name" size="40" autofocus required> 
+<br/>
+Email Address <br/> 
+<input type="email" name="email" size="40" required placeholder="valid email here please">
+<br/> 
+</fieldset>
+<fieldset>
+<legend> Your coffee preferences</legend> 
+Tell us your coffee preparation methods.<br/>
+<textarea name="prepararion" cols="40" rows="6"> </textarea>
+<br/> <br/>
+Do you grind your own beans?<br/>
+<input type="radio" name="grind" value="yes">
+yes<br/>
+<input type="radio" name="grind" value="no">
+no<br/>
+<br/>
+How do you drink your coffee?<br/>
+<input type="checkbox" name="howdrink" value="sugar">
+with sugar<br/>
+<input type="checkbox" name="howdrink" value="creme">
+with cream<br/>
+<br/>
+
+What is your favorite coffee drink? </br>
+
+
+<select  name="favourite">
+<option value="please select a drink"> please select a drink </option>
+<option value="drip">drip coffee </option>
+<option value="fpress"> french press </option>
+<option value="espresso"> espresso </option>
+<option value="latte"> latte </option>
+<option value="flavored"> flavoured </option>
+</select>
+</fieldset>
+</form>
+<footer>
+<nav>
+<ul>
+<li> <a href="Index.html"> Home </a></li>
+<li> <a href="Roasting.html"> Roasting </a></li>
+<li> <a href="Grinding.html"> Grinding </a></li>
+<li> <a href="Brewing.html"> Brewing </a></li>
+<li> <a href="Drinks.html"> Drinks </a></li>
+<li> <a href="Survey.html"> Coffee survey</a> </li>
+</ul>
+</nav>
+</footer>
+
+
+</body>
+</html>
