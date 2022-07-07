@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+	
 <head>
 	<meta charset="UTF-8">
 	<title>Alien Abduction Order Form</title>
@@ -13,11 +14,12 @@
 			<p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
 			<fieldset>
 			<legend>Your contact information</legend>
-			<form>
-			<label for="name">Your name</label>
+			<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="post">
+				<input type="hidden" name="send_to" id="myhidden" value="adrianna.orzol@gmail.com">
+							<label for="name">Your name</label>
 				<input type="text" id="name" name="name"> 
 			<label for="phone">Phone number</label>
-				<input type="phone" id="phone" name="phone" placeholder="Enter the number without blanks">
+				<input type="tel" id="phone" name="phone" placeholder="Enter the number without blanks">
 			<label>Email</label>
 			<input type="email" id="email" name="email">
 				</fieldset>
@@ -25,14 +27,14 @@
 			<legend>About your abduction </legend>
 			<label for="date">Requested  date</label>
 			<input type="date" id="date" name="date">
-			<label for="quantity">How many people would you like abducted?</label>
-			<input type="number" id="quantity" name="quantity" min="1" max="4">
+			<label for="qty">How many people would you like abducted?</label>
+			<input type="number" id="qty" name="qty" min="1" max="4">
 			<p>What type of UFO do you prefer?</p>
 			<label>
 			<input type="radio"	name="ufotype" value="classic">Classic oval UFO
 			</label>
 			<label>
-			<input type="radio" name="ufotype" value="starwars">Star Wars-style Imperial cruiser
+			<input type="radio" name="ufotype" value="starwars" checked>Star Wars-style Imperial cruiser
 			</label>
 			<label>
 			<input type="radio" name="ufotype" value="battlestar">	Battlestar Galactica-style Viper
@@ -40,23 +42,21 @@
 			<label>
 			<input type="radio" name="ufotype" value="borg">		Borg-style cube
 			</label>
-				</fieldset>
-				<fieldset>
 			<label for="abtype">What type of abduction experience do you want?</label>
 				<select id="abtype" name="abtype">
 					<option selected> Select one</option>
 					<option value="tour">Tour of the solar system</option>
-					<option value="dinner">Alien dinner and discussion</option>
+					<option value="dinner" selected>Alien dinner and discussion</option>
 					<option value="dance">Alien dance lessons</option>
 					<option value="whale">Whale watching</option>
 				</select>
 			<label for="comment">Special requests:</label>
-			<textarea name="comment" id="comment"> 
+			<textarea name="comment" id="comment" placeholder="Enter text here">
 			</textarea>
+		</fieldset>
 			<label for="subscription">	
 			<input type="checkbox" checked id="subscription" name="subscription" value="subscription"> Add me to the newsletter
-			</label>>
-				</fieldset>
+			</label>
 				<button type="submit"> Sumbit form</button> 
 			</form>			
 		</section>
@@ -70,6 +70,7 @@
 			</address>
 		</aside>
 	</div>
+	<script src="js/forms.js"></script>
 </body>
 </html>
 
