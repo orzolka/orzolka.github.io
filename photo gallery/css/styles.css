@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
+ 
   .gallery-img {
     display: none;
     max-height: 600px;
@@ -10,6 +10,7 @@
   .active {
     display: block;
   }
+
   
   .image-gallery {
     width: 100%;
@@ -17,13 +18,15 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .btns {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+ 
   
   .btn {
     background-color: #0074d9;
