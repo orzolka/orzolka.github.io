@@ -1,6 +1,5 @@
 const imgUrl = "https://dog.ceo/api/breeds/image/random";
 const breedUrl = "https://dog.ceo/api/breeds/list/all";
- let fifek ="https://images.dog.ceo/breeds/dachshund/puppy-1006024_640.jpg"
 
 fetch(imgUrl)
 .then(function(response){
