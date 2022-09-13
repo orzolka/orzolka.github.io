@@ -2,6 +2,8 @@ const imgUrl = "https://dog.ceo/api/breeds/image/random";
 const breedUrl = "https://dog.ceo/api/breeds/list/all";
 const randomBreedUrl = "https://dog.ceo/api/breed/replace/images/random";
 
+
+
 fetch(imgUrl)
 .then(function(response){
 return response.json(); 
@@ -27,6 +29,7 @@ fetch(breedUrl).then(function(response){
         document.querySelector("#breed").appendChild(option);
     }
     })
+
 
 document.querySelector("#breed").addEventListener('change',function(event){
    let selectedBreed = event.target.value;
